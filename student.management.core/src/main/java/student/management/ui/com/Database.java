@@ -1,4 +1,4 @@
-package mysql.com;
+package student.management.ui.com;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

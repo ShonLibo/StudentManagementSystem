@@ -1,4 +1,4 @@
-package mysql.com;
+package student.management.ui.com;
 
 public final class User {
     private final String email;
