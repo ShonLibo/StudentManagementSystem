@@ -3,8 +3,6 @@ package mysql.com;
 import javax.swing.*;
 import java.awt.*;
 import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.regex.Pattern;
 
 public final class SignUpScreen extends JFrame {
