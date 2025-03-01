@@ -1,4 +1,4 @@
-package student.management.ui.com;
+package student.management.ui.core;
 
 public final class User {
     private final String email;

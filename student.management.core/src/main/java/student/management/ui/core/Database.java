@@ -1,4 +1,4 @@
-package student.management.ui.com;
+package student.management.ui.core;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

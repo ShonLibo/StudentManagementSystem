@@ -1,5 +1,8 @@
 package student.management.ui.com;
 
+import student.management.ui.core.Database;
+import student.management.ui.core.Utils;
+
 import javax.swing.*;
 import java.awt.*;
 import java.sql.Connection;
@@ -105,7 +108,11 @@ public final class RegistrationScreen extends JFrame {
 
         // Back Button Action
         backButton.addActionListener(e -> {
-            new SignInScreen().setVisible(true);
+            try {
+                new SignInScreen().setVisible(true);
+            } catch (SQLException ex) {
+                throw new RuntimeException(ex);
+            }
             dispose();
         });
 
