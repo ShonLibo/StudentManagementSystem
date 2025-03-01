@@ -98,7 +98,7 @@ public final class SignInScreen extends JFrame {
 
         signUpButton.addActionListener(e -> {
             try {
-                new mysql.com.SignUpScreen().setVisible(true);
+                new student.management.ui.com.SignUpScreen().setVisible(true);
             } catch (SQLException ex) {
                 throw new RuntimeException(ex);
             }

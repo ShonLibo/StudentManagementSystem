@@ -1,5 +1,7 @@
-package mysql.com;
+package student.management.ui.com;
 
+import student.management.ui.com.SignInScreen;
+import student.management.ui.core.Database;
 import student.management.ui.core.Utils;
 
 import javax.swing.*;
@@ -88,7 +90,11 @@ public final class SignUpScreen extends JFrame {
         signUpButton.addActionListener(e -> {
             if (validateSignUp()) {
                 JOptionPane.showMessageDialog(this, "Sign Up Successful! Please Sign In.");
-                new SignInScreen().setVisible(true);
+                try {
+                    new SignInScreen().setVisible(true);
+                } catch (SQLException ex) {
+                    throw new RuntimeException(ex);
+                }
                 dispose();
             } else {
                 JOptionPane.showMessageDialog(this, "Error: Passwords do not match or fields are empty.");
@@ -96,7 +102,11 @@ public final class SignUpScreen extends JFrame {
         });
 
         backButton.addActionListener(e -> {
-            new SignInScreen().setVisible(true);
+            try {
+                new SignInScreen().setVisible(true);
+            } catch (SQLException ex) {
+                throw new RuntimeException(ex);
+            }
             dispose();
         });
 
