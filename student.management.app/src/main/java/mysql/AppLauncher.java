@@ -1,7 +1,11 @@
-package mysql.com;
+package mysql;
 
 import com.jtattoo.plaf.aluminium.AluminiumLookAndFeel;
+import student.management.ui.com.SignInScreen;
+import student.management.ui.com.Utils;
+
 import javax.swing.*;
+import java.sql.SQLException;
 
 public final class AppLauncher {
     private AppLauncher() {
