@@ -7,6 +7,14 @@ import java.sql.SQLException;
 public final class Database {
     private static Connection connection;
 
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
+    Database() {
+        // Private constructor to prevent instantiation
+    }
+
     public static Connection getConnection() throws SQLException {
         if (connection == null || connection.isClosed()) {
             try {
