@@ -18,7 +18,7 @@ public final class InformationDisplayScreen extends JFrame {
         this.connection = Database.getConnection();
         this.email = email;
         setTitle("Student Management System");
-        setSize(500, 400);
+        setSize(500, 450); // Increased size to accommodate birthdate
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
@@ -47,7 +47,7 @@ public final class InformationDisplayScreen extends JFrame {
 
         try {
             PreparedStatement statement = connection.prepareStatement(
-                    "SELECT name, course, gender, hobbies FROM registrations WHERE email = ?"
+                    "SELECT name, course, gender, hobbies, birthdate FROM registrations WHERE email = ?"
             );
             statement.setString(1, email);
             ResultSet resultSet = statement.executeQuery();
@@ -57,6 +57,7 @@ public final class InformationDisplayScreen extends JFrame {
                 infoArea.append("Course: " + resultSet.getString("course") + "\n");
                 infoArea.append("Gender: " + resultSet.getString("gender") + "\n");
                 infoArea.append("Hobbies: " + resultSet.getString("hobbies") + "\n");
+                infoArea.append("Birthdate: " + resultSet.getDate("birthdate") + "\n"); // Display birthdate
             } else {
                 infoArea.append("No registration details found.\n");
             }
