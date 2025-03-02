@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="650c6cdb-492d-4b08-ae07-bfefe5bba26c" name="Changes" comment="added Jcalendar dependency to the student.management.ui pom.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.app/src/main/java/mysql/AppLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.app/src/main/java/mysql/AppLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.app/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.app/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.app/target/classes/mysql/AppLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.app/target/classes/mysql/AppLauncher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.ui/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.ui/target/classes/module-info.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
