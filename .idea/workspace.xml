@@ -6,11 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="650c6cdb-492d-4b08-ae07-bfefe5bba26c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.ui/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.ui/src/main/java/student/management/ui/com/RegistrationScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.ui/src/main/java/student/management/ui/com/RegistrationScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.management.app/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.app/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.management.app/target/classes/mysql/AppLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.app/target/classes/mysql/AppLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.management.core/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Utils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student.management.ui/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.ui/target/classes/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student.management.ui/target/classes/student/management/ui/com/InformationDisplayScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.ui/target/classes/student/management/ui/com/InformationDisplayScreen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student.management.ui/target/classes/student/management/ui/com/RegistrationScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.ui/target/classes/student/management/ui/com/RegistrationScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.management.ui/target/classes/student/management/ui/com/SignInScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.ui/target/classes/student/management/ui/com/SignInScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.management.ui/target/classes/student/management/ui/com/SignUpScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.ui/target/classes/student/management/ui/com/SignUpScreen.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +61,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SamsonNeyo/jcalendar-1.4.jar",
+    "last_opened_file_path": "C:/Users/Dell/mysql-connector-java-8.0.18.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.27019498",
