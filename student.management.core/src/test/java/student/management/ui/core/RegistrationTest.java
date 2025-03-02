@@ -21,17 +21,19 @@ private  Registration registration;
 
     @Test
     void getName() {
-
+assertEquals( "",registration.getName());
 
     }
 
     @Test
     void getCourse() {
+        assertEquals("",registration.getCourse());
 
     }
 
     @Test
     void getGender() {
+
 
     }
 
