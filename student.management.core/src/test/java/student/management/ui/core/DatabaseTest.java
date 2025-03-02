@@ -26,7 +26,10 @@ class DatabaseTest {
 
     @Test
     public void closeConnection() {
-
+        assertDoesNotThrow(() -> {
+            // Assuming getConnection and then closeConnection works
+            database.getConnection(); // Get a connection first
+        });
     }
 
 }

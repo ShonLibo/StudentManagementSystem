@@ -4,27 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75f33fbc-4338-45ff-9bb2-166f772d9c44" name="Changes" comment="" />
+    <list default="true" id="75f33fbc-4338-45ff-9bb2-166f772d9c44" name="Changes" comment="GetConnection test is successful done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "adiljacobfrancis"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ShonLibo/StudentManagementSystem.git",
+    "accountId": "480ba9e0-468e-41b9-b661-bf13704b994f"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Database.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/student.management.core/src/test/java/student/management/ui/core/DatabaseTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/student.management.ui/src/main/java/module-info.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.DatabaseTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DANGURU/mysql-connector-java-8.0.18.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.27019498&quot;
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2tlywmTYYj86vipa694JtWj5pxe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.DatabaseTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DANGURU/mysql-connector-java-8.0.18.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.27019498"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="student.management.core" />
@@ -47,7 +72,38 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75f33fbc-4338-45ff-9bb2-166f772d9c44" name="Changes" comment="" />
+      <created>1740941205216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740941205216</updated>
+    </task>
+    <task id="LOCAL-00001" summary="GetConnection test is successful done">
+      <option name="closed" value="true" />
+      <created>1740941471031</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740941471031</updated>
+    </task>
+    <task id="LOCAL-00002" summary="GetConnection test is successful done">
+      <option name="closed" value="true" />
+      <created>1740941481746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740941481746</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="GetConnection is successful done" />
+    <MESSAGE value="#updated" />
+    <MESSAGE value="GetConnection test is successful done" />
+    <option name="LAST_COMMIT_MESSAGE" value="GetConnection test is successful done" />
   </component>
 </project>
