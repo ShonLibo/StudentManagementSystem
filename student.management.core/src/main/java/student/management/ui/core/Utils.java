@@ -4,10 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 
 public final class Utils {
-    private Utils() {
-        // Private constructor to prevent instantiation
-    }
-
     public static void logError(String message, Exception e) {
         System.err.println(message);
         e.printStackTrace();

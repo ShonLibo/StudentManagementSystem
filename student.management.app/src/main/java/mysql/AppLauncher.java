@@ -8,10 +8,6 @@ import javax.swing.*;
 import java.sql.SQLException;
 
 public final class AppLauncher {
-    private AppLauncher() {
-        // Private constructor to prevent instantiation
-    }
-
     public static void main(String[] args) {
         try {
             UIManager.setLookAndFeel(new AluminiumLookAndFeel());

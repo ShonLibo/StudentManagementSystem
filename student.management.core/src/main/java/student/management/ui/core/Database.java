@@ -7,10 +7,6 @@ import java.sql.SQLException;
 public final class Database {
     private static Connection connection;
 
-    private Database() {
-        // Private constructor to prevent instantiation
-    }
-
     public static Connection getConnection() throws SQLException {
         if (connection == null || connection.isClosed()) {
             try {
@@ -24,15 +20,5 @@ public final class Database {
             }
         }
         return connection;
-    }
-
-    public static void closeConnection() {
-        if (connection != null) {
-            try {
-                connection.close();
-            } catch (SQLException e) {
-                System.err.println("Error closing database connection: " + e.getMessage());
-            }
-        }
     }
 }
