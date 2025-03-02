@@ -4,27 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75f33fbc-4338-45ff-9bb2-166f772d9c44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/target/test-classes/student/management/ui/core/DatabaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/test-classes/student/management/ui/core/DatabaseTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="75f33fbc-4338-45ff-9bb2-166f772d9c44" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.DatabaseTest.executor": "Run",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/DANGURU/mysql-connector-java-8.0.18.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.27019498"
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Database.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/student.management.core/src/test/java/student/management/ui/core/DatabaseTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/student.management.ui/src/main/java/module-info.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.DatabaseTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DANGURU/mysql-connector-java-8.0.18.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27019498&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="student.management.core" />
