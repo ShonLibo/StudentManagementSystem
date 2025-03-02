@@ -39,6 +39,7 @@ assertEquals("",registration.getGender());
 
     @Test
     void getHobbies() {
+        assertEquals("",registration.getHobbies());
 
     }
 }
