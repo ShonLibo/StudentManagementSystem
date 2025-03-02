@@ -2,12 +2,15 @@ package student.management.ui.com;
 
 import student.management.ui.core.Database;
 import student.management.ui.core.Utils;
+import com.toedter.calendar.JDateChooser;
 
 import javax.swing.*;
 import java.awt.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.TreePath;
 
@@ -16,6 +19,7 @@ public final class RegistrationScreen extends JFrame {
     private final JComboBox<String> courseComboBox;
     private final JRadioButton maleRadioButton, femaleRadioButton;
     private final JTree hobbiesTree;
+    private final JDateChooser birthdateChooser; // JCalendar component
     private final Connection connection;
     private final String email;
 
@@ -23,7 +27,7 @@ public final class RegistrationScreen extends JFrame {
         this.connection = Database.getConnection();
         this.email = email;
         setTitle("Student Management System");
-        setSize(500, 400); // Increased size to accommodate the JTree
+        setSize(500, 450); // Increased size to accommodate the JCalendar
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
@@ -46,7 +50,7 @@ public final class RegistrationScreen extends JFrame {
 
         add(titlePanel, BorderLayout.NORTH);
 
-        JPanel formPanel = new JPanel(new GridLayout(7, 2, 10, 10)); // Increased rows for JTree
+        JPanel formPanel = new JPanel(new GridLayout(8, 2, 10, 10)); // Increased rows for JCalendar
         formPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
 
         formPanel.add(Utils.createLabel("Email:"));
@@ -71,6 +75,11 @@ public final class RegistrationScreen extends JFrame {
         genderPanel.add(femaleRadioButton);
         formPanel.add(genderPanel);
 
+        formPanel.add(Utils.createLabel("Birthdate:"));
+        birthdateChooser = new JDateChooser(); // JCalendar component
+        birthdateChooser.setDateFormatString("yyyy-MM-dd"); // Set date format
+        formPanel.add(birthdateChooser);
+
         formPanel.add(Utils.createLabel("Hobbies:"));
         hobbiesTree = createHobbiesTree();
         formPanel.add(new JScrollPane(hobbiesTree));
@@ -88,8 +97,9 @@ public final class RegistrationScreen extends JFrame {
             String course = (String) courseComboBox.getSelectedItem();
             String gender = maleRadioButton.isSelected() ? "Male" : "Female";
             String hobbies = getSelectedHobbies();
+            String birthdate = new SimpleDateFormat("yyyy-MM-dd").format(birthdateChooser.getDate()); // Format birthdate
 
-            if (saveRegistration(email, name, course, gender, hobbies)) {
+            if (saveRegistration(email, name, course, gender, hobbies, birthdate)) {
                 JOptionPane.showMessageDialog(this, "Registration Saved!");
             } else {
                 JOptionPane.showMessageDialog(this, "Error saving registration!");
@@ -168,16 +178,17 @@ public final class RegistrationScreen extends JFrame {
         return hobbies.toString();
     }
 
-    private boolean saveRegistration(String email, String name, String course, String gender, String hobbies) {
+    private boolean saveRegistration(String email, String name, String course, String gender, String hobbies, String birthdate) {
         try {
             PreparedStatement statement = connection.prepareStatement(
-                    "INSERT INTO registrations (email, name, course, gender, hobbies) VALUES (?, ?, ?, ?, ?)"
+                    "INSERT INTO registrations (email, name, course, gender, hobbies, birthdate) VALUES (?, ?, ?, ?, ?, ?)"
             );
             statement.setString(1, email);
             statement.setString(2, name);
             statement.setString(3, course);
             statement.setString(4, gender);
             statement.setString(5, hobbies);
+            statement.setString(6, birthdate); // Add birthdate to the query
             statement.executeUpdate();
             return true;
         } catch (SQLException e) {
