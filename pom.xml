@@ -18,8 +18,8 @@
 
     <!-- Properties -->
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -38,6 +38,12 @@
                 <groupId>com.jtattoo</groupId>
                 <artifactId>JTattoo</artifactId>
                 <version>1.6.13</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.toedter</groupId>
+                <artifactId>jcalendar</artifactId>
+                <version>1.4</version>
             </dependency>
 
             <!-- JavaFX (Optional, if needed) -->
