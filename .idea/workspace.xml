@@ -4,157 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    <list default="true" id="650c6cdb-492d-4b08-ae07-bfefe5bba26c" name="Changes" comment="added Jcalendar dependency to the student.management.ui pom.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="75f33fbc-4338-45ff-9bb2-166f772d9c44" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.app/src/main/java/mysql/AppLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.app/src/main/java/mysql/AppLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.app/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.app/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.app/target/classes/mysql/AppLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.app/target/classes/mysql/AppLauncher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.ui/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.ui/target/classes/module-info.class" afterDir="false" />
-=======
-    <list default="true" id="650c6cdb-492d-4b08-ae07-bfefe5bba26c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/student.management.core/src/test/java/student/management/ui/core/DatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student.management.core/src/test/java/student/management/ui/core/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Database.class" afterDir="false" />
->>>>>>> Stashed changes
-=======
-    <list default="true" id="650c6cdb-492d-4b08-ae07-bfefe5bba26c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/student.management.core/src/test/java/student/management/ui/core/DatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student.management.core/src/test/java/student/management/ui/core/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/src/main/java/student/management/ui/core/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/classes/student/management/ui/core/Database.class" afterDir="false" />
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/student.management.core/target/test-classes/student/management/ui/core/DatabaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/test-classes/student/management/ui/core/DatabaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="module-info" />
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;SamsonNeyo&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ShonLibo/StudentManagementSystem.git&quot;,
-    &quot;accountId&quot;: &quot;9c1ce30f-9ff8-4e1d-8182-b2d6b8b084f7&quot;
-  }
-}</component>
-<<<<<<< Updated upstream
-=======
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/student.management.core/src/test/java/student/management/ui/core/DatabaseTest.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/student.management.ui/src/main/java/module-info.java" root0="SKIP_INSPECTION" />
-  </component>
->>>>>>> Stashed changes
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2tiD72IljuRv3ewc76KgGZ1wygq" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.AppLauncher.executor": "Run",
-    "JUnit.AppLauncherTest.executor": "Run",
-    "JUnit.AppLauncherTest.testSignInScreenArrayMatch.executor": "Run",
-    "JUnit.DatabaseTest.closeConnection.executor": "Run",
     "JUnit.DatabaseTest.executor": "Run",
-    "JUnit.DatabaseTest.getConnection.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-<<<<<<< Updated upstream
-=======
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SamsonNeyo/mysql-connector-java-8.0.18.jar",
+    "last_opened_file_path": "C:/Users/DANGURU/mysql-connector-java-8.0.18.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.27019498",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "settings.editor.selected.configurable": "preferences.lookFeel"
-=======
-    "settings.editor.selected.configurable": "MavenSettings"
->>>>>>> Stashed changes
-=======
-    "settings.editor.selected.configurable": "MavenSettings"
->>>>>>> Stashed changes
+    "project.structure.side.proportion": "0.27019498"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="mysql" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="student.management.ui.core" />
-      <recent name="mysql" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest">
-    <configuration name="AppLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mysql.AppLauncher" />
-      <module name="student.management.app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mysql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppLauncherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="student.management.app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mysql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mysql" />
-      <option name="MAIN_CLASS_NAME" value="mysql.AppLauncherTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="student.management.core" />
       <extension name="coverage">
@@ -170,101 +41,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.closeConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="student.management.core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="student.management.ui.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="student.management.ui.core" />
-      <option name="MAIN_CLASS_NAME" value="student.management.ui.core.DatabaseTest" />
-      <option name="METHOD_NAME" value="closeConnection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DatabaseTest.getConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="student.management.core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="student.management.ui.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="student.management.ui.core" />
-      <option name="MAIN_CLASS_NAME" value="student.management.ui.core.DatabaseTest" />
-      <option name="METHOD_NAME" value="getConnection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="student.management.app" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="student.management.app" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DatabaseTest" />
-        <item itemvalue="JUnit.DatabaseTest.getConnection" />
-        <item itemvalue="JUnit.DatabaseTest.closeConnection" />
-        <item itemvalue="Application.AppLauncher" />
-        <item itemvalue="JUnit.AppLauncherTest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="650c6cdb-492d-4b08-ae07-bfefe5bba26c" name="Changes" comment="" />
-      <created>1740825830770</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1740825830770</updated>
-    </task>
-    <task id="LOCAL-00001" summary="added Jcalendar dependency to the student.management.ui pom.xml">
-      <option name="closed" value="true" />
-      <created>1740926876673</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1740926876673</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="added Jcalendar dependency to the student.management.ui pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Jcalendar dependency to the student.management.ui pom.xml" />
-=======
-=======
->>>>>>> Stashed changes
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.sql.SQLException" package="java.sql" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
   </component>
 </project>
