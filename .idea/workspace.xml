@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75f33fbc-4338-45ff-9bb2-166f772d9c44" name="Changes" comment="close connection test is done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.management.core/src/test/java/student/management/ui/core/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/src/test/java/student/management/ui/core/RegistrationTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="75f33fbc-4338-45ff-9bb2-166f772d9c44" name="Changes" comment="Merge remote-tracking branch 'origin/main'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +113,47 @@
       <option name="project" value="LOCAL" />
       <updated>1740941904340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge branch 'main' of https://github.com/ShonLibo/StudentManagementSystem">
+      <option name="closed" value="true" />
+      <created>1740942380618</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740942380618</updated>
+    </task>
+    <task id="LOCAL-00006" summary="getcourse is done successfully done">
+      <option name="closed" value="true" />
+      <created>1740942582172</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740942582172</updated>
+    </task>
+    <task id="LOCAL-00007" summary="getcourse is done successfully done">
+      <option name="closed" value="true" />
+      <created>1740942601795</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740942601795</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1740943384364</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740943384364</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1740943493717</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740943493717</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,6 +162,12 @@
     <MESSAGE value="Close connecton test is successful done" />
     <MESSAGE value="#updated" />
     <MESSAGE value="close connection test is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="close connection test is done" />
+    <MESSAGE value="getEmail is done successfully" />
+    <MESSAGE value="Merge branch 'main' of https://github.com/ShonLibo/StudentManagementSystem" />
+    <MESSAGE value="getcourse is done successfully done" />
+    <MESSAGE value="getGender is done successfully done" />
+    <MESSAGE value="gethobbies is done" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
   </component>
 </project>
