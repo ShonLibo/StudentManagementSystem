@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75f33fbc-4338-45ff-9bb2-166f772d9c44" name="Changes" comment="Merge remote-tracking branch 'origin/main'" />
+    <list default="true" id="75f33fbc-4338-45ff-9bb2-166f772d9c44" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.management.core/target/test-classes/student/management/ui/core/DatabaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/test-classes/student/management/ui/core/DatabaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.management.core/target/test-classes/student/management/ui/core/RegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/student.management.core/target/test-classes/student/management/ui/core/RegistrationTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.DatabaseTest.executor": "Run",
+    "JUnit.RegistrationTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -50,7 +55,7 @@
     "project.structure.side.proportion": "0.27019498"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RegistrationTest">
     <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="student.management.core" />
       <extension name="coverage">
@@ -66,8 +71,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student.management.core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="student.management.ui.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="student.management.ui.core" />
+      <option name="MAIN_CLASS_NAME" value="student.management.ui.core.RegistrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegistrationTest" />
         <item itemvalue="JUnit.DatabaseTest" />
       </list>
     </recent_temporary>
