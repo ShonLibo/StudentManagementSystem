@@ -33,7 +33,7 @@ assertEquals( "",registration.getName());
 
     @Test
     void getGender() {
-
+assertEquals("",registration.getGender());
 
     }
 
